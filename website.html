@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>School Website</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+}
+
+/* Header */
+header{
+    background:#004080;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:40px;
+}
+
+header p{
+    margin-top:10px;
+}
+
+/* Navigation */
+nav{
+    background:#00264d;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+/* Hero Section */
+.hero{
+    background:
+    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url('IMG20260505110854.jpg') no-repeat center center/cover;
+
+    height:450px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+}
+
+.hero h2{
+    font-size:50px;
+    background:rgba(0,0,0,0.5);
+    padding:20px;
+    border-radius:10px;
+}
+
+/* About */
+.about{
+    padding:50px;
+    text-align:center;
+    background:white;
+}
+
+.about h2{
+    margin-bottom:20px;
+    color:#004080;
+}
+
+/* Courses */
+.courses{
+    padding:50px;
+    background:#e6f0ff;
+}
+
+.courses h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#004080;
+}
+
+.course-box{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    width:250px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+.card h3{
+    color:#004080;
+    margin-bottom:10px;
+}
+
+/* Contact */
+.contact{
+    padding:50px;
+    text-align:center;
+    background:white;
+}
+
+.contact h2{
+    color:#004080;
+    margin-bottom:20px;
+}
+
+/* Footer */
+footer{
+    background:#00264d;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Shree Neelakantha Secondary School</h1>
+    <p>Uttargaya-5 Bogatitar, Rasuwa</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Courses</a>
+    <a href="#">Gallery</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Welcome to Our School</h2>
+</section>
+
+<section class="about">
+    <h2>About Us</h2>
+    <p>
+        Shree Neelakantha Secondary School provides quality education 
+        with modern teaching methods and skilled teachers.
+    </p>
+</section>
+
+<section class="courses">
+    <h2>Our Programs</h2>
+
+    <div class="course-box">
+
+        <div class="card">
+            <h3>Computer Engineering</h3>
+            <p>Technical education with practical learning.</p>
+        </div>
+
+        <div class="card">
+            <h3>Management</h3>
+            <p>Business and management education.</p>
+        </div>
+
+        <div class="card">
+            <h3>Education</h3>
+            <p>Professional teaching and learning program.</p>
+        </div>
+
+        <div class="card">
+            <h3>Computer Science</h3>
+            <p>Modern IT and programming education.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: 010-412061</p>
+    <p>Principal: 9841578993</p>
+    <p>Email: info@neelakanthaschool.edu.np</p>
+</section>
+
+<footer>
+    <p>© 2026 Shree Neelakantha Secondary School | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
